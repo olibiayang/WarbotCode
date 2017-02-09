@@ -1,0 +1,29 @@
+public class XboxController extends Joystick {
+  
+  public class Axis{
+        public double X,Y;
+        public Axis(double x,double y){
+            X=x;
+            Y=y;
+ }
+  
+  public class buttons {
+
+    public button A = button [1]
+    public button B = button [2]
+    public button X = button [3]
+    public button Y = button [4]
+    public button left = button [5]
+    public button right = button [6]
+    public button back = button [7]
+    public button start = button [8]
+    public button Lstick = button [9]
+    public button Rstick = button [10]
+    public button Rtrigger = button [11]
+    public button Ltrigger = button [12]
+    public button leftBumper = button []
+    public button rightBumper = button []
+
+}
+
+  }
